@@ -1,0 +1,87 @@
+:root {
+  --bg: #f0f2f5;
+  --card: #ffffff;
+  --accent: #007bff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: var(--bg);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 360px;
+  background: var(--card);
+  padding: 1.8rem;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+h2 {
+  margin: 0 0 1rem;
+  font-size: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-top: 0.8rem;
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 0.65rem;
+  margin-bottom: 0.4rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+}
+
+button {
+  width: 100%;
+  margin-top: 0.8rem;
+  background: var(--accent);
+  border: none;
+  color: white;
+  padding: 0.7rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+p {
+  margin-top: 0.85rem;
+  min-height: 1.25rem;
+}
+
+.success {
+  color: #198754;
+}
+
+.error {
+  color: #dc3545;
+}
+
+early {
+  color: #0d6efd;
+}

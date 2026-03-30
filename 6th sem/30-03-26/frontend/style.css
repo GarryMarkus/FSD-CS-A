@@ -1,0 +1,66 @@
+:root {
+  --bg: #f0f2f5;
+  --card: #ffffff;
+  --accent: #007bff;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg);
+}
+
+.login-container {
+  background: var(--card);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.1);
+  width: 320px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+label {
+  display: block;
+  margin: 10px 0 4px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  margin-top: 16px;
+  width: 100%;
+  border: none;
+  background: var(--accent);
+  color: white;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.message {
+  margin-top: 14px;
+  color: #d8000c;
+  font-size: 0.95rem;
+}
+
+.message.success {
+  color: #007a33;
+}
